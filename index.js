@@ -12,7 +12,11 @@ return "Welcome, "+ newPerson +". You are number "+ katzDeli.length +" in line."
 
 function nowServing(katzDeli,newPerson){
  katzDeli.push(newPerson)
- if (newPerson){
+ if (katzDeli[newPerson]){
+   "Now Serving "+ newPerson 
+   katzDeli.pop(newPerson)
+ }
+ else(){
    
  }
 }
