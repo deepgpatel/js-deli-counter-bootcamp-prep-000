@@ -26,7 +26,7 @@ function currentLine(katzDeli){
   return "The line is currently empty.";
  }
   for (i = 0; i < katzDeli.length; i++) {
-    return `The line is currently: ${i+1}. ${katzDeli.shift()},`;
+    `The line is currently: ${i+1}. ${katzDeli.shift()},`;
   }
 return console.log(katzDeli);
 }
