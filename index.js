@@ -10,10 +10,9 @@ function takeANumber(katzDeli, newPerson){
 return "Welcome, "+ newPerson +". You are number "+ katzDeli.length +" in line.";
 }
 
-function nowServing(katzDeli,newPerson){
- katzDeli.push(newPerson)
- if (katzDeli[newPerson]){
-   return "Now Serving "+ newPerson 
+function nowServing(katzDeli){
+ if (katzDeli.length > 0){
+   return "Now Serving "+ katzDeli 
    katzDeli.shift(newPerson)
  }
  else {
