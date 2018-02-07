@@ -19,6 +19,7 @@ function nowServing(katzDeli,newPerson){
  else(){
    "There is nobody waiting to be served!"
  }
+return console.log(nowServing)
 }
 
 
