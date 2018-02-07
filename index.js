@@ -21,7 +21,9 @@ return console.log(katzDeli)
 }
 
 function currentLine(katzDeli){
-  
+  if (katzDeli.length){
+    
+  }
 }
 
 
