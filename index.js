@@ -29,7 +29,7 @@ function currentLine(katzDeli){
   for (i = 0; i < katzDeli.length; i++) {
     line +=` ${i+1}. ${katzDeli[i]},`
   }
-  line.slice()
+  line.slice(0, -1)
 return line;
 }
 
