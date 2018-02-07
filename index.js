@@ -11,7 +11,8 @@ return "Welcome, "+ newPerson +". You are number "+ katzDeli.length +" in line."
 }
 
 function nowServing(katzDeli,newPerson){
- if ()
+ katzDeli
+ if (newPerson)
 }
 
 
