@@ -13,11 +13,11 @@ return "Welcome, "+ newPerson +". You are number "+ katzDeli.length +" in line."
 function nowServing(katzDeli,newPerson){
  katzDeli.push(newPerson)
  if (katzDeli[newPerson]){
-   "Now Serving "+ newPerson 
+   return "Now Serving "+ newPerson 
    katzDeli.shift(newPerson)
  }
  else {
-   "There is nobody waiting to be served!"
+   return "There is nobody waiting to be served!"
  }
 return console.log(katzDeli)
 }
