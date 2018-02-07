@@ -20,7 +20,7 @@ function nowServing(katzDeli){
 return console.log(katzDeli)
 }
 
-function currentLine(katzDeli, line){
+function currentLine(katzDeli){
   var i = 0
   for (i = 0; i < katzDeli.length; i++) {
     if (katzDeli.length > 0){
