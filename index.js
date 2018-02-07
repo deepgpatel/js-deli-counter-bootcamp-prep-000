@@ -6,7 +6,7 @@ function takeANumber(katzDeli, newPerson){
   // //for (i = 0; i < katzDeliLine.length; i++) {
   //   katzDeliLine.push("Welcome,"+ newPerson +". You are number"+ katzDeliLine.length  +"in line.")
   // }
-return "Welcome,"+ newPerson +". You are number"+ katzDeli.length +"in line.";
+return "Welcome, "+ newPerson +". You are number "+ katzDeli.length +" in line.";
 }
 
 
