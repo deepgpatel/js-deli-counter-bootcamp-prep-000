@@ -14,7 +14,7 @@ function nowServing(katzDeli,newPerson){
  katzDeli.push(newPerson)
  if (katzDeli[newPerson]){
    "Now Serving "+ newPerson 
-   katzDeli.pop(newPerson)
+   katzDeli.shift(newPerson)
  }
  else {
    "There is nobody waiting to be served!"
