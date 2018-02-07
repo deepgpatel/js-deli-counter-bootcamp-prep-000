@@ -17,7 +17,7 @@ function nowServing(katzDeli,newPerson){
    katzDeli.pop(newPerson)
  }
  else(){
-   
+   "There is nobody waiting to be served!"
  }
 }
 
