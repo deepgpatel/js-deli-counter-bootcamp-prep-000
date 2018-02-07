@@ -28,7 +28,7 @@ function currentLine(katzDeli){
   for (i = 0; i < katzDeli.length; i++) {
     `The line is currently: ${i+1}. ${katzDeli.shift()},`;
   }
-return console.log(katzDeli);
+return katzDeli;
 }
 
 
