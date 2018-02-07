@@ -24,7 +24,7 @@ function currentLine(katzDeli){
   var i = 0
   for (i = 0; i < katzDeli.length; i++) {
     if (katzDeli.length > 0){
-    return `The line is currently: ${[i+1]}. ${katzDeli.shift()},`
+    return `The line is currently: ${i+1}. ${katzDeli.shift()},`
     }
     else {
       return "The line is currently empty."
