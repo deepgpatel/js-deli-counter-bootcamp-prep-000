@@ -27,7 +27,7 @@ function currentLine(katzDeli){
   return "The line is currently empty.";
  }
   for (i = 0; i < katzDeli.length; i++) {
-    line.concat()
+    line.concat(`${i+1}. ${katzDeli[i]},`)
   }
 return line;
 }
