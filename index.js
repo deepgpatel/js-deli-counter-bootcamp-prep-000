@@ -21,9 +21,11 @@ return console.log(katzDeli)
 }
 
 function currentLine(katzDeli, line){
-  if (katzDeli.length > 0){
-    return `The line is currently: $
-    
+  var i = 0
+  for (i = 0; i < katzDeli.length; i++) {
+    if (katzDeli.length > 0){
+    return `The line is currently: ${katzDeli[i+1]}. ${katzDeli.shift()}`
+    }  
   }
 }
 
