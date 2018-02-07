@@ -16,10 +16,10 @@ function nowServing(katzDeli,newPerson){
    "Now Serving "+ newPerson 
    katzDeli.pop(newPerson)
  }
- else(katzDeli){
+ else(){
    "There is nobody waiting to be served!"
  }
-return console.log(nowServing)
+return console.log(katzDeli)
 }
 
 
